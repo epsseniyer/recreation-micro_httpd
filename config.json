@@ -1,0 +1,12 @@
+{
+    "port": 8000,
+    "routes": {
+      "/": "Hello, World!",
+      "/about": "This is the About page.",
+      "/contact": "Contact us at info@example.com."
+    },
+    "returnToStatus": {
+      "404": "/not-found.html",
+      "500": "Internal Server Error"
+    }
+  }
